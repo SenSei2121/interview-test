@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-import { VoiceEntry } from './types.js'
+import { VoiceEntry } from './types'
 
 // Path to the CSV that ships with the template
 const csvPath = path.resolve(
